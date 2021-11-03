@@ -43,7 +43,6 @@ def generate():
     tk.Label(frame, font=("Helvetica", 14), text="Done!", bg='Light Blue').grid(row=8)
 
 
-
 root = tk.Tk()
 root.title("gCode Values")
 operator=""
