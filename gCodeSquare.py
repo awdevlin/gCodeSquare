@@ -8,14 +8,8 @@ def generate():
     yMax = float(n2.get())
     step = float(n3.get())
     delay = float(n4.get())
-    # path = 'C:/Users/mrave/OneDrive/Desktop/ugsplatform-win/'
     path = 'C:/Users/Sonus/OneDrive - Sonus Microsystems/Desktop/ugsplatform-win/'
     fileName = 'square'
-
-    # xMax = float(input("Enter x dimention in mm: "))
-    # yMax = float(input("Enter y dimention in mm: "))
-    # step = float(input("Enter the step size in mm: "))
-    # delay = float(input("Enter the pause time at each point in seconds: "))
 
     gcodeFile = open(fileName + '.nc', 'w')
 
@@ -51,7 +45,7 @@ def generate():
 
 
 root = tk.Tk()
-root.title("gcode Values")
+root.title("gCode Values")
 operator=""
 
 canvas = tk.Canvas(root, height=200, width=310, bg="White")
